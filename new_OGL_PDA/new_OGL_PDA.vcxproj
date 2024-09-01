@@ -127,10 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="model.cpp" />
     <ClCompile Include="new_OGL_PDA.cpp" />
     <ClCompile Include="tga_image.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="geometry.h" />
+    <ClInclude Include="model.h" />
     <ClInclude Include="tga_image.h" />
   </ItemGroup>
   <ItemGroup>
